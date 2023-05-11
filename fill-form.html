@@ -31,11 +31,22 @@
   <div class="A">
     <div class="B">
 
-      <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+      <form name="user_form">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="fname"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="lname">
+        <br><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br><br>
+        <input type="submit" value="Submit" onclick="return loginUser()">
+        <br><br>
+        <p id="result"></p>
       </form>
 
     </div>
@@ -47,6 +58,7 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
