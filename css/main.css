@@ -69,6 +69,13 @@ div.B {
   margin-right: auto;
 }
 
+code {
+  background: rgba(0,0,0,0.1);
+  display: block;
+  white-space: pre-wrap;
+  padding: 5px;
+}
+
 p {
   text-align: center;
 }
