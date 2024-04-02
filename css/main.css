@@ -11,16 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html, body {
-}
 
-body {
-  background-color: black;
-  background-image: url("../img/stars.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+
 
 #nav {
   background-color: white;
@@ -28,7 +20,7 @@ body {
   transform: translateY(1px);
   display: flex;
   justify-content: space-evenly;
-  #padding: 14px 0;
+  /* #padding: 14px 0; */
   overflow: hidden;
 }
 
@@ -70,7 +62,7 @@ div.B {
 }
 
 code {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   display: block;
   white-space: pre-wrap;
   padding: 5px;
@@ -256,9 +248,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -269,6 +261,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -336,4 +329,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

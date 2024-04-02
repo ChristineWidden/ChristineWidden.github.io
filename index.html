@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="overlay"></div>
     <header>
         <div class="container">
-            <h1>My Portfolio</h1>
+            <h1>Christine Widden</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -27,16 +28,7 @@
         <div class="container">
             <div class="section-box">
                 <h2>Welcome to My Portfolio</h2>
-                <p>This is where you can find my latest projects and artwork.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <div class="section-box">
-                <h2>About Me</h2>
-                <p>I'm a passionate coder and artist who loves creating beautiful and functional projects.</p>
+                <p>Hi! I'm Christine Widden. Here is where you can find information about my skills and the various projects I have worked on.</p>
             </div>
         </div>
     </section>
@@ -45,15 +37,244 @@
         <div class="container">
             <div class="section-box">
                 <h2>Projects</h2>
-                <div class="project">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1</p>
+                <div class="project-grid" >
+                    <a class="project" href="projects/AlienInvasion.html">
+                        <div class="project-image" style="background-image: url('img/alienInvasion.JPG');"></div>
+                        <div class="project-content">
+                            <h4>Alien Invasion</h4>
+                            <p>A Unity-based tower defense game, developed alongside a team. Game mechanics were made bug-resistant and modular with object-oriented programming.</p>
+                        </div>
+                    </a>
+                    <a class="project" href="projects/ResumeGenerator.html">
+                        <div class="project-image" style="background-image: url('img/ResumeGenerator.JPG');"></div>
+                        <div class="project-content">
+                            <h4>Resume Generator</h4>
+                            <p>A local web app to streamline my resume creation process. Node, JavaScript, and Python.</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Goblin Chase</h4>
+                            <p>A Unity-based game with platformer and bullet hell elements.</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Computer Graphics Projects</h4>
+                            <p>Various projects in C++ with OpenGL</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Operating Systems Projects</h4>
+                            <p>Various projects in C++, focused on recreating various functions of an operating system.</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Task Management App</h4>
+                            <p>An iOS app for managing to-do lists and other tasks.</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Notes Made Easy</h4>
+                            <p>A React and JavaScript based web-app for taking notes.</p>
+                        </div>
+                    </a>
+                    <a class="project">
+                        <div class="project-image" style="background-image: url('img/stars.jpg');"></div>
+                        <div class="project-content">
+                            <h4>Discord Chat Bots</h4>
+                            <p>Various bots for interacting with while using the Discord chat application. Based in JavaScript and Python.</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="project">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-box">
+                <h2>Skills</h2>
+                <div class="skill-grid" >
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>C and C++</h4>
+                            <p>The main languages used for many courses at Cal Poly. Primarily used for systems-related work.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>C#</h4>
+                            <p>Used for various Unity games I've worked on.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Python</h4>
+                            <p>Used for projects and assignments related to data science and machine learning, as well as for many personal projects.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>JavaScript</h4>
+                            <p>Used for web development related projects, as well as many personal projects that utilize web functionality.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>TypeScript</h4>
+                            <p>Used during my 3-month internship as a SDET at Symetrix to develop Playwright tests.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Java</h4>
+                            <p>Learned through a 2-year course in object-oriented programming. Used for a few projects that required a UI.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Object-Oriented Programming</h4>
+                            <p>Learned in great detail during a 2-year course, and I continue to apply the principles whenever possible.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Computer Security</h4>
+                            <p>Learned through 2 classes as well as personal experience. Primary focus has been on web security, encryption, and system security.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Unity</h4>
+                            <p>Used to develop various games for personal and assigned projects.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Linear Algebra</h4>
+                            <p>Learned through a course, and applied the principles in machine learning and computer graphics.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>OpenGL</h4>
+                            <p>Utilized in computer graphics and computer animation courses.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Git and Github</h4>
+                            <p>Used frequently for internships, team projects, and personal projects.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Linux</h4>
+                            <p>Utilized for some courses requiring C and C++, as well as computer security.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Windows</h4>
+                            <p>The operating system I use most frequently.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Mac</h4>
+                            <p>Used to develop an iOS app for my senior project.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Game Development</h4>
+                            <p>Learned through various courses, as well as through independent study.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Software Development Life Cycle</h4>
+                            <p>Utilized in my internship at Symetrix, as well as the Software Development course.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Automated Test Development</h4>
+                            <p>Learned extensively during my time as a SDET at Symetrix.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Unit Testing</h4>
+                            <p>Utilized for checking the quality of various assigned projects, as well as to ensure the quality of some personal projects.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Playwright</h4>
+                            <p>The web-automation library I used during my time as an intern at Symetrix.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Selenium</h4>
+                            <p>A web-automation library I have used for a few personal projects, as well as taught to other students.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Agile</h4>
+                            <p>Used to manage tasks during my time at Symetrix.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Debugging</h4>
+                            <p>Constantly applied to all projects. I am skilled at finding bugs and searching for solutions.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>HTML, CSS</h4>
+                            <p>Utilized for personal projects, such as making this website.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>React</h4>
+                            <p>Used to develop the web app made in the Software Development course.</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-content">
+                            <h4>Written Communication</h4>
+                            <p>I am a skilled writer with a strong understanding of the importance of frequent communication and clarity of instructions.</p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-box">
+                <h2>About Me</h2>
+                <p>Hi! I am currently studying as a graduate student in Computer Science at Cal Poly, San Luis Obispo.</p>
+                <p>I have loved programming ever since I first took a Java course in high school. Programming feels like puzzle solving to me, and there isn't any other career path I'd rather be pursuing.</p>
+                <p>I am particularly fascinated by machine learning and game development. It is my goal to become a game developer at one of the many great game companies on the west coast!</p>
+                <p>I'm a massive nerd. With the free time I get, I love to play Dungeons and Dragons with my friends, and play my favorite video games such as Minecraft, Skyrim, and games from the Legend of Zelda series, as well as whatever indie titles catch my attention!</p>
+                <p>My other hobbies include singing, digital art, writing, and cooking.</p>
             </div>
         </div>
     </section>
@@ -62,8 +283,8 @@
         <div class="container">
             <div class="section-box">
                 <h2>Contact Me</h2>
-                <p>Feel free to reach out to me for collaborations or inquiries.</p>
-                <p>Email: example@example.com</p>
+                <p>Feel free to reach out to me about collaborations, inquiries, and job opportunities!</p>
+                <p>Email: christinewidden@outlook.com</p>
             </div>
         </div>
     </section>
@@ -75,3 +296,13 @@
     </footer>
 </body>
 </html>
+<script>
+    document.querySelectorAll('.project').forEach(project => {
+    project.addEventListener('mouseenter', () => {
+        project.classList.add('hover');
+    });
+    project.addEventListener('mouseleave', () => {
+        project.classList.remove('hover');
+    });
+});
+</script>
